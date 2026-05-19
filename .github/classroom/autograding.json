@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "T01.1 [3pts] E1: Panel NORTH no vacio",
+      "setup": "mvn compile -q",
+      "run": "mvn test -Dtest=EvaluacionTest#t01_1_northNoEsVacio -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 3
+    },
+    {
+      "name": "T01.2 [4pts] E1: LineBorder COLOR_PRIMARIO en NORTH",
+      "setup": "",
+      "run": "mvn test -Dtest=EvaluacionTest#t01_2_northLineBorder -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 4
+    },
+    {
+      "name": "T01.3 [3pts] E1: FlowLayout LEFT en NORTH",
+      "setup": "",
+      "run": "mvn test -Dtest=EvaluacionTest#t01_3_northFlowLayout -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 3
+    },
+    {
+      "name": "T02.1 [5pts] E2: BoxLayout Y_AXIS en WEST",
+      "setup": "",
+      "run": "mvn test -Dtest=EvaluacionTest#t02_1_westBoxLayout -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 5
+    },
+    {
+      "name": "T02.2 [5pts] E2: CompoundBorder con TitledBorder en WEST",
+      "setup": "",
+      "run": "mvn test -Dtest=EvaluacionTest#t02_2_westCompoundBorder -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 5
+    },
+    {
+      "name": "T02.3 [5pts] E2: 5+ botones con LEFT_ALIGNMENT en WEST",
+      "setup": "",
+      "run": "mvn test -Dtest=EvaluacionTest#t02_3_westBotones -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 5
+    },
+    {
+      "name": "T03.1 [5pts] E3: splitPane HORIZONTAL_SPLIT asignado",
+      "setup": "",
+      "run": "mvn test -Dtest=EvaluacionTest#t03_1_splitPaneHorizontal -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 5
+    },
+    {
+      "name": "T03.2 [5pts] E3: oneTouchExpandable + resizeWeight configurados",
+      "setup": "",
+      "run": "mvn test -Dtest=EvaluacionTest#t03_2_splitPaneConfig -Djava.awt.headless=true -q",
+      "input": "",
+      "output": "BUILD SUCCESS",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 5
+    }
+  ]
+}
